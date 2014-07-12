@@ -1,0 +1,57 @@
+/*
+Theme Name: Your Theme
+Theme URI: http://example.com/example/
+Description: A search engine optimized website framework for WordPress.
+Author: You
+Author URI: http://example.com/
+Version: 1.0
+Tags: Comma-separated tags that describe your theme
+.
+Your theme can be your copyrighted work.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+ 
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ 
+.
+*/
+/* Reset default browser styles */
+/*@import url('styles/reset.css');*/
+
+/* Rebuild default browser styles */
+/*@import url('styles/rebuild.css');*/
+
+/* Basic WordPress Styles */
+/*@import url('styles/wp.css');*/
+
+/* Import a basic layout */
+
+/*@import url('styles/3c-b.css');*/
+/*@import url('styles/1c-b.css');*/
+/*@import url('styles/2c-l.css');*/
+/*@import url('styles/2c-r.css'); */
+/*@import url('styles/3c-l.css'); */
+/*@import url('styles/3c-r.css'); */
+
+/* menu*/
+/*@import url('styles/menu.css'); */
+
+
+@import url('styles/bootstrap.css');
+@import url('styles/bootstrap-responsive.css');
+@import url('styles/chosen.css');
+@import url('styles/jquery.css');
+@import url('styles/main.css');
+
+
+
+
+
+/*
+#wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+.single #nav-above {
+    display:none;
+}
+*/
