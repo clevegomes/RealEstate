@@ -14,6 +14,7 @@
  * @since Twenty Ten 1.2
  */
 ?>
+This is the loop-page.php
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 

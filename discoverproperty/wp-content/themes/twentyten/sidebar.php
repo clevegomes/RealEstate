@@ -7,6 +7,7 @@
  * @since Twenty Ten 1.0
  */
 ?>
+<br/>this is the side bar
 
 		<div id="primary" class="widget-area" role="complementary">
 			<ul class="xoxo">

@@ -748,6 +748,7 @@ class wpl_extensions
 	**/
 	public static function import_styles_scripts()
 	{
+
 		$wpl_extensions = new wpl_extensions();
 		
 		$javascripts = $wpl_extensions->get_extensions(1, 'javascript', wpl_global::get_client());
@@ -759,6 +760,7 @@ class wpl_extensions
 		$styles = $wpl_extensions->get_extensions(1, 'style', wpl_global::get_client());
 		foreach($styles as $style)
 		{
+
 			$wpl_extensions->import_style($style);
 		}
 	}
@@ -780,6 +782,7 @@ if(!($GLOBALS['pagenow'] == 'plugins.php' and wpl_request::getVar('action') == '
 		/** upgrading WPL **/
 		$wpl_extensions->upgrade_wpl();
 	}
+
 }
 
 /** Run WPL Proccess service **/

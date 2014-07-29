@@ -14,7 +14,7 @@
 
 	<div id="footer" role="contentinfo">
 		<div id="colophon">
-
+this s the footer
 <?php
 	/* A sidebar in the footer? Yep. You can can customize
 	 * your footer with four columns of widgets.

@@ -384,6 +384,8 @@ function add_action($tag, $function_to_add, $priority = 10, $accepted_args = 1) 
  * @return null Will return null if $tag does not exist in $wp_filter array
  */
 function do_action($tag, $arg = '') {
+
+
 	global $wp_filter, $wp_actions, $merged_filters, $wp_current_filter;
 
 	if ( ! isset($wp_actions[$tag]) )
@@ -426,11 +428,16 @@ function do_action($tag, $arg = '') {
 	do {
 		foreach ( (array) current($wp_filter[$tag]) as $the_ )
 			if ( !is_null($the_['function']) )
+            {
 				call_user_func_array($the_['function'], array_slice($args, 0, (int) $the_['accepted_args']));
+
+            }
 
 	} while ( next($wp_filter[$tag]) !== false );
 
 	array_pop($wp_current_filter);
+
+
 }
 
 /**

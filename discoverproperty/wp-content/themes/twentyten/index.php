@@ -15,6 +15,7 @@
 
 get_header(); ?>
 
+<br/>This  is the body
 		<div id="container">
 			<div id="content" role="main">
 
@@ -23,8 +24,8 @@ get_header(); ?>
 			 * If you want to overload this in a child theme then include a file
 			 * called loop-index.php and that will be used instead.
 			 */
-            echo do_shortcode('[wpl_property_listings]');
-			 get_template_part( 'loop', 'index' );
+          //  echo do_shortcode('[wpl_property_listings]');
+			// get_template_part( 'loop', 'index' );
 			?>
 			</div><!-- #content -->
 		</div><!-- #container -->

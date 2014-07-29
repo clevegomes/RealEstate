@@ -14,6 +14,8 @@
 
 get_header(); ?>
 
+This is the pagebody
+
 		<div id="container">
 			<div id="content" role="main">
 

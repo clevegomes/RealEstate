@@ -189,6 +189,8 @@ function get_stylesheet_directory() {
 function get_stylesheet_directory_uri() {
 	$stylesheet = get_stylesheet();
 	$theme_root_uri = get_theme_root_uri( $stylesheet );
+
+
 	$stylesheet_dir_uri = "$theme_root_uri/$stylesheet";
 
 	/**

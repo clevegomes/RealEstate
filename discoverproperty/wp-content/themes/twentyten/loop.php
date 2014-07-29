@@ -18,7 +18,7 @@
  * @since Twenty Ten 1.0
  */
 ?>
-
+This is the loop page
 <?php /* Display navigation to next/previous pages when applicable */ ?>
 <?php if ( $wp_query->max_num_pages > 1 ) : ?>
 	<div id="nav-above" class="navigation">

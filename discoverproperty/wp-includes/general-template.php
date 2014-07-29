@@ -1631,6 +1631,7 @@ function the_weekday_date($before='',$after='') {
  * @uses do_action() Calls 'wp_head' hook.
  */
 function wp_head() {
+
 	do_action('wp_head');
 }
 
